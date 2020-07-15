@@ -12,7 +12,7 @@ Tensorflow and Python must be installed. Using GPU for training is recommended. 
   2. Place the trained networks in ECO-SI App/Redes/ (or the selected route if you edited Predictor.java in ECO-SI App/src/ ).
   3. Execute Main.java in ECO-SI App (you will need to add the Tensorflow library for Java!). This small program will let you upload a photo to classify and will return the prediction by putting together the results of each network.
 
-Se deben tener instalados Tensorflow y Python. Se recomienda utilizar GPU para el entrenamiento. Se espera que el dataset este codificado en .npz.
+Se deben tener instalados Tensorflow y Python. Se recomienda utilizar GPU para el entrenamiento. Se espera que el dataset este codificado en .npz
   1. Ejecutar cada "Red.py" de forma separada y generando las distintas redes ya entrenadas. ¡Cuidado con la ruta del dataset!
   2. Mover las redes entrenadas a ECO-SI App/Redes/ (o la ruta seleccionada si has editado Predictor.java en ECO-SI App/src/ ).
   3. Ejecutar Main.java en ECO-SI App (¡Necesitarás añadir la libreria de Tensorflow para Java). Este pequeño programa te permitirá subir una foto y clasificarla devolviendo la predicción al juntar los resultados de cada red.
